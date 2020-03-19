@@ -15,5 +15,5 @@ module.exports = (client) => {
 
         }
     }  
-    [].forEach(x => load(x))
+    ["core"].forEach(x => load(x))
 }
