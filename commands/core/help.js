@@ -45,7 +45,7 @@ module.exports = {
             helpEmbed.setDescription(stripIndents`
             **Command:** ${command.name.slice(0, 1).toUpperCase() + command.name.slice(1)}
             **Description:** ${command.description || "No Description Availible!"}
-            **Usage:** ${prefix}${command.usage ? `\`${command.name} ${command.usage}\`` : "No Usage Availible!"}
+            **Usage:** ${prefix}${command.usage ? `\`${command.usage}\`` : "No Usage Availible!"}
             **Accessable By:** ${command.accessableby || "Members"}
             **Aliases:** ${command.aliases ? command.aliases.join(", ") : "No Aliases!"}`)
 
